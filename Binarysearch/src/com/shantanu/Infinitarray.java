@@ -12,7 +12,6 @@ public class Infinitarray {
         // first start with a box of size 2
         int start = 0;
         int end = 1;
-
         // condition for the target to lie in the range
         while (target > arr[end]) {
             int temp = end + 1; // this is my new start
