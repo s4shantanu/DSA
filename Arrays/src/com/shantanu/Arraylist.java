@@ -30,7 +30,7 @@ public class Arraylist {
         }
 
         // get item at any index
-        for (int i = 10; i=8; i++) {
+        for (int i = 10; i == 8; i++) {
             System.out.println(list.get(i)); // pass index here, list[index] syntax will not work here
         }
 
