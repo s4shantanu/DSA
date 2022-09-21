@@ -1,4 +1,4 @@
-package com.shantanu;
+package com.shantanu.day1;
 
 public class NumbersExample {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.shantanu;
+package com.shantanu.day1;
 
 public class Fibo {
     public static void main(String[] args) {
