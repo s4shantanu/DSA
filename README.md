@@ -1,2 +1,2 @@
 # DSA
-#Correct way to start DSA
+Correct way to start DSA
