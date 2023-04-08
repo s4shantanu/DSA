@@ -48,7 +48,6 @@ public class Main {
             for (int col = 2; col <= c; col++) {
                 System.out.print(col + " ");
             }
-
             System.out.println();
         }
     }
