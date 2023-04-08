@@ -1,9 +1,7 @@
 package com.shantanu;
-
 import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.Scanner;
-
 public class Basicarray {
     public static void main(String[] args) {
 //        store 5 ros integer in ros variable with help of using new object arrays
