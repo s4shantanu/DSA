@@ -8,7 +8,6 @@ public class Ceiling {
         int ans = ceiling(arr, target);
         System.out.println(ans);
     }
-
     // return the index
     // return -1 if it does not exist
 //    if target is grater than array then retun no ceiling
