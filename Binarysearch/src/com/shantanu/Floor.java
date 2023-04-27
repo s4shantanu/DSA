@@ -7,7 +7,6 @@ public class Floor {
             int ans = floor(arr, target);
             System.out.println(ans);
         }
-
         // return the index
         // return -1 if it does not exis t
         static int floor(int[] arr, int target) {
