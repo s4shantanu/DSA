@@ -16,12 +16,4 @@ print(dict)
 for i in range(1,11):
     print(i)
 
-# palindrome
-a=input("Enter a string: ")
-b=a[::-1]
-if a==b:
-    print("Palindrome")
-else:
-    print("Not Palindrome")
 
-    
