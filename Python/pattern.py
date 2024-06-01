@@ -70,3 +70,22 @@ def nStarTriangle2(n: int) -> None:
     # Write your code here.
     pass
 # nStarTriangle2(n)
+
+
+def nStarTriangle3(n: int) -> None:
+    for i in range(n):
+        for j in range(n-i):
+            print(" ",end="")
+        for j in range(2*i+1):
+            print("*", end="")
+        print()
+    for i in range(n):
+        for j in range(i):
+            print(" ",end="")
+        for j in range(2*(n-1-i)+1):
+            print("*", end="")
+        print()
+    # Write your code here.
+    pass
+# nStarTriangle3(n)
+
