@@ -39,3 +39,45 @@
 #     print("Not Paliandrome")
 
 
+
+#gcd hcf
+
+# def lcmAndGcd(self, a , b):
+#         # code here 
+#         divisor = min(a,b)
+#         divident = max(a,b)
+        
+        
+#         while divisor%divident!=0:
+#             temp = divident
+#             divident = divisor
+#             divisor = temp%divisor
+            
+#         return divisor
+# ans = lcmAndGcd(2,3,4)
+# print(ans)
+
+
+
+#armstrong number
+# n = int(input("Enter the number: "))
+# temp = n
+# sum = 0
+# while n > 0:
+#     rem = n % 10
+#     sum = sum + rem ** 3
+#     n = n // 10
+# if temp == sum:
+#     print("Armstrong number")
+# else:
+#     print("Not Armstrong number")
+
+
+#print divisors
+n = int(input("Enter the number: "))
+for i in range(1,n+1):
+    if n % i == 0:
+        print(i,end=" ")
+print()
+
+
