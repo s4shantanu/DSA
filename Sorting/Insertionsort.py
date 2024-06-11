@@ -1,4 +1,6 @@
 #insertion sort
+arr = [3,5,6,2,1,7]  # Define an array to be sorted using insertion sort
+
 def insert(arr):
     n = len(arr)  # Get the length of the array
     for i in range(1, n):  # Iterate over the array starting from the second element
